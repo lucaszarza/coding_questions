@@ -1,0 +1,8 @@
+alert('LEGENDA\n\t2 - Pedra\n\t4 - Papel\n\t8 - Tesoura')
+let a = prompt('Jogador 1: ')
+let b = prompt('Jogador 2: ')
+let resultado = Number(a) + Number(b)
+if (a === b) alert('Empate!')
+else if (resultado === 6) alert('Papel Ganhou')
+else if (resultado === 10) alert('Pedra Ganhou')
+else if (resultado === 12) alert('Tesoura Ganhou')
